@@ -1,4 +1,6 @@
 # My Journey to Becoming a Web Developer Project 2 -To-do-list
 The HTML code creates a simple to-do list web application. The user interface includes an input field to add new tasks and two buttons, one to add the task and another to remove all tasks. The tasks are displayed in a table format in the "thirdContainer" div. 
+
 The CSS styles the page by setting the background color, defining the layout of various elements (e.g. containers, buttons, input fields), and styling the look of these elements (e.g. border-radius, box-shadow, font size). The styles also include hover effects for the buttons and the table elements.
+
 The JavaScript code is used to create and manage a task table. When the "Add Task" button is clicked, it checks that the input is not empty. If not, it creates a table and a "td" cell that contains the value entered in the input. A second "td" cell is also created, which represents the "Delete Task" button. When this button is clicked, the function checks that the cell is a child of the table container and, if so, removes the row from the container using the removeChild method. When the "Remove All Tasks" button is clicked, the HTML content of the table container is set to an empty string.
